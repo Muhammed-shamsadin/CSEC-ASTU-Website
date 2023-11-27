@@ -1,5 +1,5 @@
 # CSEC-ASTU-Website
-This a Website project done for CSEC-ASTU Development Divivsion
+This a Website project done for CSEC-ASTU Development Division
 
 This repository contains the source code for the CSEC ASTU website, comprising multiple pages like Home, Login, and Sign Up. The website is designed using HTML, CSS, and Bootstrap for responsiveness.
 
