@@ -43,3 +43,7 @@ Clone the repository.
 Open any of the HTML files (index.html, login.html, SignUp.html) in a web browser to view the corresponding page.
 Contributing
 Contributions are welcome! Feel free to fork this repository and submit pull requests for any enhancements or fixes.
+
+
+#Here
+This is the website link: https://muhammed-shamsadin.github.io/CSEC-ASTU-Website/
