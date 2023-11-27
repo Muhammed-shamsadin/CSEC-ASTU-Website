@@ -21,9 +21,13 @@ Ensures readability by using consistent and intuitive class naming conventions.
 Suggestions Implemented
 Adds appropriate alt attributes to images for accessibility.
 Maintains responsiveness across different screen sizes.
+
 File Structure
+
 graphql
+
 Copy code
+
 root/
 │
 ├── index.html        # Home page
@@ -33,6 +37,7 @@ root/
 │   └── style.css     # Main stylesheet
 │
 └── image/            # Directory for images used in the website
+
 Usage
 Clone the repository.
 Open any of the HTML files (index.html, login.html, SignUp.html) in a web browser to view the corresponding page.
