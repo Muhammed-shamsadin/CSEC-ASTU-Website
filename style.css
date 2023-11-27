@@ -1,0 +1,297 @@
+/* Custom styles */
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Ubuntu',sans-serif;
+}
+
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 2.5em;
+    padding: 5%;
+}
+
+h2 {
+    text-align: center;
+    font-family:'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 30px 0px;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+}
+
+
+/* About Us Section */
+
+
+.main-section {
+    padding-top: 80px;
+}
+
+#about {
+    background-color: white;
+    color: black;
+    padding: 50px;
+}
+
+#about p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+#about .col-md-4 {
+    padding: 20px;
+    text-align: center;
+}
+
+#about{
+    padding: 5% 0% 5% 0%;
+}
+#about .col-md-4 i {
+    font-size: 3em;
+}
+
+#about .col-md-4:hover {
+    background-color: #f8f9fa; 
+}
+
+#about .col-md-4 h3 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+#about .col-md-4 p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+/* for Contact Section */
+
+#contact {
+    padding: 50px 0px;
+    margin-top: 30px; 
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* style for social icons */
+
+
+.social-icons {
+    display: flex;
+    justify-content: center; 
+    gap: 10px; 
+    margin-bottom: 10px; 
+}
+
+.social-icon {
+    margin-right: 15px;
+    padding-bottom: 20px;
+    color: white;
+    font-size: 30px;
+}
+
+
+
+/* login page */
+
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-form {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+}
+
+.login-form h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label{
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+label {
+    font-family: 'Ubuntu', sans-serif;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 12px);
+    padding: 6px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+/* Signup page */
+
+
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.signup-form {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    margin-top: 50px;
+}
+
+.signup-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label{
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: calc(100% - 12px);
+    padding: 6px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.signup-form button {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.signup-form button:hover {
+    background-color: #0056b3;
+}
+
+.signup-form p {
+    text-align: center;
+}
+
+.signup-form a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.signup-form a:hover {
+    text-decoration: underline;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    background-color: #444;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.input-container input[type="text"] {
+    width: calc(100% - 12px);
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: transparent;
+    color: #fff;
+    margin-left: 5px;
+}
